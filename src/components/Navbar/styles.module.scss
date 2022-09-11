@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  padding: 53px 0 0 175px;
+
+
+  .logo {
+    width: 117px;
+    height: 35px;
+  }
+
+  .items {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+
+
+}
