@@ -5,13 +5,14 @@
 
 html,
 body {
-  padding: 0;
+  padding-top: 40px;
   margin: 0;
   font-family: 'Roboto Slab', serif;
   background-color: var(--primary);
   max-width: 1090px;
   margin: 0 auto;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {

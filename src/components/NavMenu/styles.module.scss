@@ -1,14 +1,26 @@
 .nav {
   display   : flex;
+  align-items: center;
   padding   : 53px 0 0 175px;
+  justify-content   : space-between;
 
 
   li {
-    display           : flex;
-    justify-content   : space-between;
+    display           : inline-block;
     background-color  : aqua;
+    padding: 6px 10px;
     font-weight       : normal;
     cursor            : pointer;
     transition        : all .2s;
+    font-size         : 1.5rem;
+
+  }
+
+  .items {
+    display            : flex;
+    align-items        : center;
+    gap                : 24px;
+    margin-inline-start: 3rem;
+    
   }
 }

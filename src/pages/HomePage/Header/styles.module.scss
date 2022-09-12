@@ -1,6 +1,14 @@
 .container {
  
   background-color: pink;
+  height: 60px;
+  justify-content  : space-between;
+
+
+  .nav {
+  height: 26px;
+  }
+
   .left {
     img {
       position    : absolute;
@@ -19,10 +27,10 @@
   }
 
   .right {
-    position    : absolute;
     width       : 180px;
     height      : 60px;
+    //justify-content: flex-end;
+    float: right;
   }
-
-} 
+}
 

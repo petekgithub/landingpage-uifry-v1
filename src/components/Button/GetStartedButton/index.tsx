@@ -11,7 +11,7 @@ type ButtonProps= HTMLProps<HTMLButtonElement> & {
 }
 
 
-const DownloadButton = ({
+const GetStartedButton = ({
   htmlType,
   children,
   className,
@@ -27,9 +27,9 @@ const DownloadButton = ({
       onClick={onClick}
       {...rest}
     >
-      <span>Download</span>
+      <span>GetStarted</span>
     </button>
   );
 };
 
-export default DownloadButton;
+export default GetStartedButton;

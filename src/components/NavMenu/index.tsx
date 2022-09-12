@@ -15,7 +15,7 @@ const NavMenu = () => {
 
   return (
     <>
-      <nav className={styles.nav}>
+      <div className={styles.nav}>
         <ul className={styles.items}>
           {menuItems.map(item => {
             return (
@@ -26,10 +26,9 @@ const NavMenu = () => {
                 {item.path}
               </li>
             );
-
             })}
         </ul>
-      </nav>
+      </div>
     </>
   )
 }
