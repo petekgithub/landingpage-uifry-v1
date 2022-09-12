@@ -1,0 +1,14 @@
+.nav {
+  display   : flex;
+  padding   : 53px 0 0 175px;
+
+
+  li {
+    display           : flex;
+    justify-content   : space-between;
+    background-color  : aqua;
+    font-weight       : normal;
+    cursor            : pointer;
+    transition        : all .2s;
+  }
+}

@@ -1,15 +1,15 @@
 const menuItems = [
   {
+    path: "Features",
     label: "Features",
-    id: 1,
   },
   {
+    path: "Testimonial",
     label: "Testimonial",
-    id: 2
   },
   {
+    path: "Advantages",
     label: "Advantages",
-    id: 3
   }
 
 ]

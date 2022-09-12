@@ -1,34 +1,10 @@
-import { MouseEvent } from "react";
 import styles from "./styles.module.scss";
 
 
-export type ButtonStyle = "primary " | "dark";
-
-
-type Props = {
-  type?: ButtonStyle;
-  children?: React.ReactNode;
-  htmlType?: "button",
-  onClick?: (e: MouseEvent<HTMLButtonElement>) => void;
-  className: string
-};
-
-const Button = ({
-  onClick,
-  children,
- // type = "primary",
-  htmlType = "button",
-  className
-}:Props) => {
+const DownloadButton = () => {
   return (
-    <button
-      type={htmlType}
-      onClick={onClick}
-      className={(styles.container, className)}
-    >
-    {children}
-    </button>
+    <button className={styles.button}>Download</button>
   );
 };
 
-export default Button;
+export default DownloadButton;

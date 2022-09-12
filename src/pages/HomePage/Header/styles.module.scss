@@ -1,0 +1,28 @@
+.container {
+ 
+  background-color: pink;
+  .left {
+    img {
+      position    : absolute;
+      width       : 117px;
+      height      : 35px;
+      margin-top  : 53px;
+      padding-left: 175px;
+    }
+  }
+
+  .center {
+    display          : flex;
+    align-items      : center;
+    justify-content  : space-between;
+  
+  }
+
+  .right {
+    position    : absolute;
+    width       : 180px;
+    height      : 60px;
+  }
+
+} 
+
