@@ -17,7 +17,7 @@ import IntroPhone from "../../../assets/introphone.png";
 const Intro: React.FC = (Logo) => {
   return (
     <div>
-      <section className={styles.container}>
+      <section id="Intro" className={styles.container}>
         <div className={styles.content}>
           <div className={styles.explanation}>
             <h1>Make The Best Financial Decisions</h1>

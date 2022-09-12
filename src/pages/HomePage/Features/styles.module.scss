@@ -1,0 +1,29 @@
+.container {
+
+  background-color: yellow;
+
+  .content {
+    display: flex;
+    align-items: center;
+
+
+    .right {
+
+      h4 {
+        margin-left: auto;
+        font-weight: bold;
+      }
+
+      p {
+        margin-left: auto;
+      }
+     }
+
+
+    .left {
+      overflow: hidden;
+      position: relative;
+    }
+
+  } 
+}
