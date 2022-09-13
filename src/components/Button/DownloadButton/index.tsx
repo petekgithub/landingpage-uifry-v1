@@ -22,7 +22,7 @@ const DownloadButton = ({
 
   return (
     <button 
-      className={styles.button}
+      className={styles.downloadbutton}
       type={htmlType}
       onClick={onClick}
       {...rest}

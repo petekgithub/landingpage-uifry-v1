@@ -1,36 +1,16 @@
 .container {
- 
-  background-color: pink;
-  height: 60px;
+  display: flex;
+  height           : 100px;
   justify-content  : space-between;
 
-
-  .nav {
-  height: 26px;
+  .logo {
+    width       : 117px;
+    height      : 35px;
   }
 
-  .left {
-    img {
-      position    : absolute;
-      width       : 117px;
-      height      : 35px;
-      margin-top  : 53px;
-      padding-left: 175px;
-    }
+  .button {
+    padding-bottom: 100px ;
   }
-
-  .center {
-    display          : flex;
-    align-items      : center;
-    justify-content  : space-between;
   
-  }
-
-  .right {
-    width       : 180px;
-    height      : 60px;
-    //justify-content: flex-end;
-    float: right;
-  }
 }
 

@@ -7,17 +7,15 @@ import DownloadButton from "components/Button/DownloadButton";
 const Header = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.nav}> 
-        <div className= {styles.left}>
+        <div className= {styles.logo}>
           <img src="/assets/headerlogo.svg" alt="HeaderLogo"/>
         </div>
-        <div className= {styles.center}>
+        <div className= {styles.nav}>
           <NavMenu />
         </div>
-        <div className= {styles.right}>
+        <div className= {styles.button}>
           <DownloadButton />
         </div>
-      </div>
     </div>
   )
 }

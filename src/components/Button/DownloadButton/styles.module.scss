@@ -1,14 +1,13 @@
-.button {
+.downloadbutton {
   width            : 180px;
   height           : 60px;
   background-color : black;
   color            : #ffff;
   cursor           : pointer;
-  transition       : all 0.3s;
-  padding          : 0;
   border-radius    : 5px;
   text-align       : center;
-  font-size        : 1.5rem;
-  
+  font-size        : 1.2rem;
+  float            : right;
+  margin: 0 0 0 5px;
 
 }

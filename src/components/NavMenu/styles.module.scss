@@ -1,26 +1,24 @@
+@mixin display($flex) {
+  display     : $flex;
+}
+
 .nav {
-  display   : flex;
-  align-items: center;
-  padding   : 53px 0 0 175px;
-  justify-content   : space-between;
-
-
-  li {
-    display           : inline-block;
-    background-color  : aqua;
-    padding: 6px 10px;
-    font-weight       : normal;
-    cursor            : pointer;
-    transition        : all .2s;
-    font-size         : 1.5rem;
-
-  }
+  background-color        : #fff;
+  @include display(flex);
+  flex                    : 1;
+  text-align              : center;
+  justify-content         : space-between;
+  padding                 : 1rem 0;
+  margin-right            : 80px;
+  
 
   .items {
-    display            : flex;
+    @include display(flex);
     align-items        : center;
     gap                : 24px;
-    margin-inline-start: 3rem;
+   margin-inline-end   : 80px
+   // margin-bottom: 20px;
     
   }
 }
+
