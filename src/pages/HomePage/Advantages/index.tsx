@@ -1,13 +1,15 @@
 import React from 'react';
 import styles from "./styles.module.scss";
-import AdvantagesPhone from "../../../assets/advantagesphone.svg";
 
 
 const Advantages = () =>  {
   return (
     <section id="Advantages" className={styles.container}>
         <div className={styles.right}>
-          <img src={AdvantagesPhone} alt="AdvantagesPhone" />
+          <img src="/assets/advantagesphone.svg" alt="AdvantagesPhone" />
+       
+
+          
         </div>
         <div className={styles.content}>
           <div className={styles.left}>

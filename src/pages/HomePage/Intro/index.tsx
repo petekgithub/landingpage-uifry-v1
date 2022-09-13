@@ -1,9 +1,6 @@
 import React from 'react';
 import styles from "./styles.module.scss";
 import GetStartedButton from 'components/Button/GetStartedButton';
-import IntroLogo from "../../../assets/intrologo.svg";
-import WatchLogo from "../../../assets/introwatch.svg";
-import IntroPhone from "../../../assets/introphone.png";
 
 
 
@@ -14,7 +11,7 @@ import IntroPhone from "../../../assets/introphone.png";
 
 
 
-const Intro: React.FC = (Logo) => {
+const Intro = () => {
   return (
     <div>
       <section id="Intro" className={styles.container}>
@@ -25,10 +22,11 @@ const Intro: React.FC = (Logo) => {
           </div>
           <div className={styles.media}> 
             <GetStartedButton />
-            <img src={WatchLogo} alt="IntroWatch"/>
+            <img src="/assets/introwatch.svg" alt="IntroWatch"/>
+            
           </div>
-          <img src={'string' as any} alt="IntroPhone"/>
-          <img src={IntroLogo} alt="IntoLogo"/>
+          {/* <img src={'string' as any} alt="IntroPhone"/> */}
+          <img src="/assets/intrologo.svg" alt="IntroLogo"/>
           
         </div>
       </section>
