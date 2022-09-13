@@ -3,6 +3,7 @@ import Advantages from 'pages/HomePage/Advantages';
 import Customize from 'pages/HomePage/Customize';
 import Faq from 'pages/HomePage/Faq';
 import Features from 'pages/HomePage/Features';
+import Footer from 'pages/HomePage/Footer';
 import GetStarted from 'pages/HomePage/GetStarted';
 import Header from 'pages/HomePage/Header';
 import Intro from 'pages/HomePage/Intro';
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
     <Testimonial />
     <Faq />
     <GetStarted />
+    <Footer />
     
 
     </>
