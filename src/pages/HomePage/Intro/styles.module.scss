@@ -1,9 +1,45 @@
 .container {
-  text-align: center;
-  background-color: green;
+  //text-align: center;
+  background-color: #fff;
+  display: flex;
+  position: absolute;
+  border: 1px solid black;
 
 
-  h4 {
+  .info {
     font-weight: normal;
+    width: 50%;
+    padding: 99px 0 0 34px;
+    
   }
+
+  .title {
+    font-size: 4em;
+  }
+
+  span {
+    font-size: 1em;
+  }
+
+  .light {
+    left: 0px;
+    top: 0px;
+    z-index: +1;
+  }
+
+  .phone {
+    right: 10px;
+    top: 10px;
+    z-index: -5;
+  }
+
+  .media {
+    
+    z-index: 1;
+
+  }
+
+
+
+
 }
