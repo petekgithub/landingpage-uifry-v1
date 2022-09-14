@@ -1,6 +1,17 @@
 .container {
 
-  background-color: yellow;
+  float: left;
+  width: 10%;
+  margin: 0 5%;
+  background-color: #fff;
+  border: 1px solid blue;
+
+
+
+  img {
+    width: 50%
+  }
+
 
   .content {
     display: flex;

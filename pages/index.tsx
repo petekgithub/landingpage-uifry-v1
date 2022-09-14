@@ -15,13 +15,13 @@ const Home: NextPage = () => {
     <>
     <Header />
     <Intro />
-    <Features />
+    {/* <Features />
     <Advantages />
     <Customize />
     <Testimonial />
     <Faq />
     <GetStarted />
-    <Footer />
+    <Footer /> */}
     
 
     </>
