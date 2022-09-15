@@ -17,6 +17,11 @@
     color: red;
   }
 
+  p {
+    font-size: 20px;
+    opacity: .5;
+  }
+  
 
   .image{
     margin-right: 10px;
@@ -42,6 +47,7 @@
     .phone {
       z-index: 1 !important;
     }
+
 
 
 // That's because one of the class attributes seems to be overwritten from other class from your file
