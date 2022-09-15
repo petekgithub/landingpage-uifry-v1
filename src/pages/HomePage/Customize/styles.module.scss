@@ -1,3 +1,38 @@
-.container {
-  background-color: aquamarine;
+
+@mixin container-base(){
+  
+  display: flex;
+  align-items: center;
+  margin-top: -150px;
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  p {
+    font-size: 20px;
+    opacity: 0.5;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content{
+    width : 50% !important ;
+  }
 }
+
+.container{
+  @include container-base();
+  flex-direction: row;
+}
+
