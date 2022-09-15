@@ -8,7 +8,7 @@ const Features = () =>  {
     <section id="Features" className={styles.container}>
           <div className={styles.left}>
             <img className={styles.phone} src="/assets/featuresphone.svg" alt="FeaturesPhone"/>
-            <img className={styles.light} src="/assets/featurelight.svg" alt="FeaturesLight"/>
+            {/* <img className={styles.light} src="/assets/featurelight.svg" alt="FeaturesLight"/> */}
           </div>
           {/* right side */}
           <div className={styles.right}>
