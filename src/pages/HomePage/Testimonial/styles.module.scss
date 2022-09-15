@@ -11,7 +11,6 @@
   gap : 70px;
   
 
-
   .container > left {
     width      : 50%;
     position   : relative;
@@ -48,7 +47,7 @@
   .title {
    //position: absolute;
    width: 100%;
-   //text-align:center;
+   text-align:center;
   }
 
   .image{
@@ -69,9 +68,5 @@
     display: flex;
     flex-direction : column;
   }
-
-
-
-
 
 }

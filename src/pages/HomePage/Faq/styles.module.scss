@@ -1,3 +1,16 @@
-.container {
-  background-color: #AAC4FF;
+
+// all the 6 divs inside one div, just use the nth-child(odd) or nth-child(even)
+
+.content {
+  display:flex;
+
+
+  .left > div:nth-child(odd){
+    background-color: red;
+  }
+
+ .right > div:nth-child(even){
+    background-color: red;
+  }
+
 }
