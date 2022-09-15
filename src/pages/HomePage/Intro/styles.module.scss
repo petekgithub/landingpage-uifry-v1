@@ -5,33 +5,29 @@
   display               : flex;
 
 
-  container > left {
-    width      : 50%;
-    position: relative;
-
-  };
+ 
 
   .right {
     background-color  : #fff;
   }
  
   h1 {
-    font-size: 3rem;
-    margin-top: 6rem;
-    font-weight: bold;
+    font-size     : 3rem;
+    margin-top    : 6rem;
+    font-weight   : bold;
   }
 
   p {
-    font-size: 1rem;
+    font-size     : 1rem;
   }
 
 
   .light {
-    position: absolute; 
-    top: 116px;
-    left: 26%;
+    position      : absolute; 
+    top           : 116px;
+    left          : 26%;
     //z-index: -1;
-    opacity: 0.8;
+    opacity       : 0.8;
 
   }
 }
