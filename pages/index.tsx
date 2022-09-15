@@ -20,8 +20,8 @@ const Home: NextPage = () => {
     <Customize />
     <Testimonial />
     <Faq />
-    {/*<GetStarted />
-    <Footer /> */}
+    {/*<GetStarted />*/}
+    <Footer /> 
     
 
     </>

@@ -3,14 +3,37 @@
 
 .content {
   display:flex;
+  font-size: 20px;
 
+
+  .left > div,
+  .right > div {
+    padding: 5px 15px ;
+    border-radius: 10px;
+    margin: 10px;
+  }
 
   .left > div:nth-child(odd){
     background-color: red;
+    color: #fff;
+  
   }
 
  .right > div:nth-child(even){
     background-color: red;
+    color: #fff;
   }
+
+
+    p {
+      opacity: 0.5;
+
+    }
+
+  h1 { 
+    font-size: 3rem;
+  }
+
+
 
 }
