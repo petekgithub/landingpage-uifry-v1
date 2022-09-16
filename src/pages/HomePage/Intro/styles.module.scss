@@ -20,13 +20,54 @@
     opacity: 0.5;
   }
 
-
   .light {
     position      : absolute; 
     top           : 116px;
     left          : 30%;
     //z-index: -1;
     opacity       : 0.8;
+  }
+
+  .media {
+    display: flex;
+  }
+
+  .getStartedButton {
+    background-color:black;
+    padding: 15px 10px;
+    color:white;
+    border-radius:5px;
+    flex-direction: row;
+    cursor: pointer;
+  }
+
+  .watch {
+    display: flex;
+    margin-right: 5px;
+    background: none;
+    border: 1ps solid black;
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  .video {
+    padding: 5px 10px;
+    background-color: #fff;
 
   }
+
+  .button {
+    background: none;
+    background-color: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+  }
+
+ 
+
+
 }

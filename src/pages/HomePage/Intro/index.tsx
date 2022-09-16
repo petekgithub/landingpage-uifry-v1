@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./styles.module.scss";
-import GetStartedButton from 'components/Button/GetStartedButton';
-
-
-//export type Logo = "svg" | "png";
-// export interface ILogo {
-//   src: string | StatticImageData;
-// }
+//import GetStartedButton from 'components/Button/GetStartedButton';
 
 
 const Intro = () => {
+
+  //const [clickedButton, setClickedButton] = useState(" ");
+
+   const change = () => {
+     window.open("https://www.youtube.com");
+  };
+
+
   return (
     <div>
       <section id="Intro" className={styles.container}>
@@ -20,10 +22,17 @@ const Intro = () => {
                 <p>Cum Et Convallis Risus Placerat Aliquam, Nuno, Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
                 <img className={styles.light} src="/assets/introlight.svg" alt="IntroLight"/>   
               </div>
+
               <div className={styles.media}> 
-                <GetStartedButton />
-                <img src="/assets/introwatch.svg" alt="IntroWatch"/>
+                {/* <GetStartedButton /> */}
+               <button className={styles.getStartedButton}>GetStarted</button>
+                {/* <img src="/assets/introwatch.svg" alt="IntroWatch"/> */}
+                <div className={styles.watch}>
+                  <img className={styles.video} src="/assets/introvideoicon.svg" alt="IntroVideoWatch"/>
+                  <button className={styles.button} onClick={change}>Watch Video</button>
+                </div>
               </div>
+
               <div>
                 <img className={styles.logo} src="/assets/intrologo.svg" alt="IntroLogo"/> 
               </div>
