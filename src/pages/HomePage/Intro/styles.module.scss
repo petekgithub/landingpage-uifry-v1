@@ -30,6 +30,7 @@
 
   .media {
     display: flex;
+    flex-direction: row;
   }
 
   .getStartedButton {
@@ -47,14 +48,17 @@
     background: none;
     border: 1ps solid black;
     cursor: pointer;
-    width: fit-content;
-  }
+    //width: fit-content;
 
+    
   .video {
     padding: 5px 10px;
     background-color: #fff;
+    display: flex;
+  }
 
   }
+
 
   .button {
     background: none;
@@ -63,8 +67,9 @@
     color: black;
     font-size: 20px;
     white-space: nowrap;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+    //overflow-x: hidden;
+    //text-overflow: ellipsis;
+    //display: inline-block;
   }
 
  
