@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 import React from 'react';
-import NavMenu from "../../../components/NavMenu";
+import NavBar from "../../../components/NavBar";
 import DownloadButton from "components/Button/DownloadButton";
 
 
@@ -11,7 +11,7 @@ const Header = () => {
           <img src="/assets/headerlogo.svg" alt="HeaderLogo"/>
         </div>
         <div className= {styles.nav}>
-          <NavMenu />
+          <NavBar />
         </div>
         <div className= {styles.button}>
           <DownloadButton />

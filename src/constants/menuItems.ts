@@ -4,8 +4,8 @@ const menuItems = [
     label: "Features",
   },
   {
-    path: "Testimonial",
-    label: "Testimonial",
+    path: "Testimonials",
+    label: "Testimonials",
   },
   {
     path: "Advantages",

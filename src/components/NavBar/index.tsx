@@ -1,11 +1,12 @@
 import styles from "./styles.module.scss";
-//mport menuItems from "../../constants/menuItems";
+import menuItems from "../../constants/menuItems";
+//import {Link} from 'react-scroll';
 
 
 const Navigation = [
   {name: 'Home', href:'#', current:'true'},
   {name: 'Features', href:'#', current:'false'},
-  {name: 'Testimonials', href:'#', current:'false'},
+  {name: 'Testimonial', href:'#', current:'false'},
   {name: 'Advantages', href:'#', current:'false'},
 ]
 
@@ -28,28 +29,29 @@ const NavMenu = () => {
   return (
       <div className={styles.nav}>
         {/* <ul className={styles.items}>
-          { {menuItems.map(item => {
-            return (
+          { {menuItems.map(item => ( 
+            
               <li
                 key={item.label} 
                 onClick={() => handleOnClick(item.label)}
               >
                 {item.path}
               </li>
-            );
-            })} 
+            
+            ))} }
         </ul> */}
-        <div className={styles.items}>
+         <div className={styles.items}>
           {Navigation.map((item) => (
             <a
               href = {item.href}
               key = {item.name}
+              onClick={() => handleOnClick(item.name)}
               className={classNames(item.current)}
             >
               {item.name}
             </a>
           ))}
-        </div>
+        </div> 
       </div>
   )
 }
