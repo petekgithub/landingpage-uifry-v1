@@ -41,14 +41,12 @@
       * indent stylings are not properly being used, (.container > left : left here is not a selector, and since scss is being used it should also be indented)
       * header and footer components should be used with their own tags (<header>, <footer>)
       * for alt values of images : try to give header value of the section
-      * there are img tags inside h4 tags, try to keep text tags (h1,h2,h3,p, etc.) purely with text and if you really need then use a container to wrap it with the image
+      * there are img tags inside h4 tags, try to keep text tags (h1,h2,h3,p, etc.) purely with text and if you really need then use a container to wrap it with the imag
 *FAQ
     * while using modular scss, using global styling names is not a proper approach, and since these classes are not being used they can be removed.
     * faq data may come from BE in a single array, so instead of dividing it as left and right, try to have a single wrapper and map the items together, by styling with the current approach. (nth-child)
 *Intro
     * Watch video button opens the link via function, it is better to use <a> tag instead to have better UX.
     * function naming convention for react is either like “onEvent” or “handleOnEvent” instead of “event”.
-*styles
-    * instead of keeping general styling files separate, it is better to keep them together in a single styles folder (with the variables one)
 *styles
     * instead of keeping general styling files separate, it is better to keep them together in a single styles folder (with the variables one)
