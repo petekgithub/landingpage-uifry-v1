@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./styles.module.scss";
 import Image from 'next/image';
 import Ring from "../../Core/assets/icons/ringicon.svg";
@@ -21,13 +20,13 @@ const Advantages = () =>  {
             <h1>Why Choose Uifry?</h1>
           </div> 
           <h4 className={styles.title}>
-            <Image
+          Clever Notifications</h4>
+          <Image
               className={styles.image} 
               src= {Ring}
               alt="RingIcon"
               layout="fill"
             /> 
-          Clever Notifications</h4>
           <p>
             Arcu At Dictum Sapien, Mollis, Vulputate Sit Id Accumsan, Ultricies, In Ultricies Malesuade Elit Mauris Etiam 
             Odio, Duis, Tristique Lacus, Et Blandit Viverra Nisl Velit. Sed Mattis, Rhoncus, Diam, Suspendisse Sit Nunc, 

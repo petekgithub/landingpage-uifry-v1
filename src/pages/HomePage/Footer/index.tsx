@@ -1,11 +1,10 @@
-import React from 'react';
 import styles from "./styles.module.scss";
 
 
 const Footer = () =>  {
   return (
     <section id="Footer" className={styles.container}>
-      <div className={styles.innerContainer}>
+      <footer className={styles.innerContainer}>
         <div className={styles.contact}>
           <img src="/assets/headerlogo.svg" />
           <div className={styles.mail}>
@@ -48,7 +47,7 @@ const Footer = () =>  {
           <input type="email" name="email" className={styles.subscribeInput} placeholder="Your email"/>
           <button type="submit" className={styles.submitButton}>Subscribe</button>
         </div> 
-    </div>
+    </footer>
     <div className={styles.frame}>
       <p>Copyright 2022 Uifry.Com All Rights Reserved </p>
     </div>

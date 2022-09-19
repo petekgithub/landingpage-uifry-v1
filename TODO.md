@@ -37,7 +37,7 @@
       * import React from ‘react’ is no longer necessary as nextjs works properly without that import, so the general import should not be used.
       * h1 tag is being used multiple times in the same page. In a website there should only be one h1 and h2 tags, so that the page can be crawled properly and SEO doesnt get negatively affected.
       * while developing with nextjs, instead of using img tag Image component from next should be used to have optimizations.
-      * both tags and classnames are being used to style. if tags are unique under a component then instead of giving classNames tags can be used. (<h4 className={styles.title} -> either h4 or title should be used instead of both)
+      * both tags and classnames are being used to style. if tags are unique under a component then instead of giving classNames tags can be used. (<h4 className={styles.title} -> either h4 or title should be used instead of both) 
       * indent stylings are not properly being used, (.container > left : left here is not a selector, and since scss is being used it should also be indented)
       * header and footer components should be used with their own tags (<header>, <footer>)
       * for alt values of images : try to give header value of the section

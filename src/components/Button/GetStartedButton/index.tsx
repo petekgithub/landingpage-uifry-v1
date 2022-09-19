@@ -10,7 +10,6 @@ type ButtonProps= HTMLProps<HTMLButtonElement> & {
   htmlType?: "button"
 }
 
-
 const GetStartedButton = ({
   htmlType,
   children,

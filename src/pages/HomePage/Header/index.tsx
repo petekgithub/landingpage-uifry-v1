@@ -1,12 +1,11 @@
 import styles from "./styles.module.scss";
-import React from 'react';
 import NavBar from "../../../components/NavBar";
 import DownloadButton from "components/Button/DownloadButton";
 
 
 const Header = () => {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <div className= {styles.logo}>
         <img src="/assets/headerlogo.svg" alt="HeaderLogo"/>
       </div>
@@ -16,7 +15,7 @@ const Header = () => {
       <div className= {styles.button}>
         <DownloadButton />
       </div>
-    </div>
+    </header>
   );
 };
 
