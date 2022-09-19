@@ -27,7 +27,7 @@ const DownloadButton = ({
       onClick={onClick}
       {...rest}
     >
-      <span>Download</span>
+      Download
     </button>
   );
 };

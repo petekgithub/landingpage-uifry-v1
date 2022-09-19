@@ -2,9 +2,9 @@
 ## ( code review1 )
 ### 18/9/22
 
-*+ react-scroll dependency is added but not being used so it can also be removed.
-*+ Both css and scss is being used, globals.css file can be converted to scss and also can be imported as “styles/globals.scss” instead of “../styles/globals.scss” to keep consistency in the project.
-*+ Code formatting is really important in a project, to have better readability and consistency across different files. you can either format the file on save by opening that setting or manually format the file. Some important points on this :
+* react-scroll dependency is added but not being used so it can also be removed.
+* Both css and scss is being used, globals.css file can be converted to scss and also can be imported as “styles/globals.scss” instead of “../styles/globals.scss” to keep consistency in the project.
+* Code formatting is really important in a project, to have better readability and consistency across different files. you can either format the file on save by opening that setting or manually format the file. Some important points on this :
     * Dont keep multiple empty lines, only have one line at most.
     * Have the same indent level in all the files of a project. (either 4 or 2, most commonly 2 is preferred)
     * Dont keep commented code blocks unless you are going to enable them in the future
@@ -12,7 +12,7 @@
 *pages
     * pages / api folder can be deleted since it’s not being used. Try to keep the project clean without any unused files.
 *public
-* assets folder is usually used to keep all the assets belonging to a project (i.e. font files, videos, images, etc.) so it is better to use a folder like “images”, “img” or something similar to separate the asset types.
+    * assets folder is usually used to keep all the assets belonging to a project (i.e. font files, videos, images, etc.) so it is better to use a folder like “images”, “img” or something similar to separate the asset types.
 *src
     * Variables
       * Naming convention for styling folders/files are usually camelCase format and usually kept under a styles folder. And instead of using Variables/Variables (same naming twice) it can be “styles/variables.scss”, “styles/variables/default.scss” (if you have multiple theme variables) or similar.

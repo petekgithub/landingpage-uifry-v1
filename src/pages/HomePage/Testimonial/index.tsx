@@ -24,7 +24,7 @@ const Testimonial = () =>  {
               Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”
             </p>
             <div className={styles.heads}> 
-              <img src="/assets/testimonialjonas.svg" alt="TestimonialJonas"/>
+              <img src="/assets/testimonialheads.svg" alt="TestimonialJonas"/>
               <span>Nick Jonas</span>
             </div>
           </div>

@@ -1,9 +1,7 @@
-@mixin display($flex) {
-  display     : $flex;
-};
+//@import "Core/styles/index.scss";
 
 .nav {
-  @include display(flex);
+ // @include display(flex);
   flex                    : 1;
   text-align              : center;
   justify-content         : space-between;
@@ -12,9 +10,9 @@
   
 
   .items {
-    @include display(flex);
-    align-items        : center;
-    gap                : 24px;
+   // @include display(flex);
+    align-items         : center;
+    gap                 : 24px;
     margin-inline-end   : 80px
   };
 };

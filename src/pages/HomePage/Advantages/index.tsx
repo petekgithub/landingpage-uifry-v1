@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from "./styles.module.scss";
 import Image from 'next/image';
+import Ring from "../../Core/assets/icons/ringicon.svg";
 
 const Advantages = () =>  {
   return (
     <section id="Advantages" className={styles.container}>
       <div className={styles.right}>
         <img
-          src="/assets/advantagesphone.svg"
+          src="/assets/icon/advantagesphone.svg"
           alt="AdvantagesPhone"
          // layout="fill"
         />
@@ -20,11 +21,11 @@ const Advantages = () =>  {
             <h1>Why Choose Uifry?</h1>
           </div> 
           <h4 className={styles.title}>
-            <img 
+            <Image
               className={styles.image} 
-              src="/assets/ringicon.svg" 
+              src= {Ring}
               alt="RingIcon"
-             // layout="fill"
+              layout="fill"
             /> 
           Clever Notifications</h4>
           <p>
