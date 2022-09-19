@@ -2,9 +2,9 @@
 ## ( code review1 )
 ### 18/9/22
 
-* react-scroll dependency is added but not being used so it can also be removed.
-* both css and scss is being used, globals.css file can be converted to scss and also can be imported as “styles/globals.scss” instead of “../styles/globals.scss” to keep consistency in the project.
-* code formatting is really important in a project, to have better readability and consistency across different files. you can either format the file on save by opening that setting or manually format the file. Some important points on this :
+*+ react-scroll dependency is added but not being used so it can also be removed.
+*+ Both css and scss is being used, globals.css file can be converted to scss and also can be imported as “styles/globals.scss” instead of “../styles/globals.scss” to keep consistency in the project.
+*+ Code formatting is really important in a project, to have better readability and consistency across different files. you can either format the file on save by opening that setting or manually format the file. Some important points on this :
     * Dont keep multiple empty lines, only have one line at most.
     * Have the same indent level in all the files of a project. (either 4 or 2, most commonly 2 is preferred)
     * Dont keep commented code blocks unless you are going to enable them in the future
@@ -50,3 +50,5 @@
     * function naming convention for react is either like “onEvent” or “handleOnEvent” instead of “event”.
 *styles
     * instead of keeping general styling files separate, it is better to keep them together in a single styles folder (with the variables one)
+
+** add responsive

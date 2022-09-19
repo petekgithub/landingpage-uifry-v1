@@ -1,6 +1,4 @@
 import styles from "./styles.module.scss";
-import menuItems from "../../constants/menuItems";
-//import {Link} from 'react-scroll';
 
 
 const Navigation = [
@@ -8,15 +6,14 @@ const Navigation = [
   {name: 'Features', href:'#', current:'false'},
   {name: 'Testimonial', href:'#', current:'false'},
   {name: 'Advantages', href:'#', current:'false'},
-]
+];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
-}
+};
 
 
 const NavMenu = () => {
-
   const handleOnClick = (event:string) => {
       const target= document.getElementById(event);
       window.scrollTo({
@@ -28,18 +25,6 @@ const NavMenu = () => {
 
   return (
       <div className={styles.nav}>
-        {/* <ul className={styles.items}>
-          { {menuItems.map(item => ( 
-            
-              <li
-                key={item.label} 
-                onClick={() => handleOnClick(item.label)}
-              >
-                {item.path}
-              </li>
-            
-            ))} }
-        </ul> */}
          <div className={styles.items}>
           {Navigation.map((item) => (
             <a
@@ -53,7 +38,7 @@ const NavMenu = () => {
           ))}
         </div> 
       </div>
-  )
-}
+  );
+};
 
 export default NavMenu;

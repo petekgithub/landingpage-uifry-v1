@@ -1,87 +1,50 @@
-
 .container {
-
- // float: left;
- // width: 10%;
- // margin: 0 5%;
-  display: flex;
-
+  display             : flex;
 
   .container > left {
-    width      : 50%;
-    position   : relative;
+    width             : 50%;
+    position          : relative;
 
   };
-
   span {
-    color: red;
-  }
-
+    color             : #e55000;
+  };
   p {
-    font-size: 20px;
-    opacity: .5;
-  }
-  
-
+    font-size         : 20px;
+    opacity           : .5;
+  };
   .image{
-    margin-right: 10px;
-    display: inline-block;
-    
-  }
-
+    margin-right      : 10px;
+    display           : inline-block;
+  };
   // aligned for the icons and title
   .title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-
+    display           : flex;
+    flex-direction    : row;
+    align-items       : center;
+  };
   .left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
-
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
     .phone {
-      z-index: 1 !important;
-    }
-
-
+      z-index         : 1 !important;
+    };
 
 // That's because one of the class attributes seems to be overwritten from other class from your file
-//The important it's just a way to prevent from other classes to overwrite your attribute
+// The important: it's just a way to prevent from other classes to overwrite your attribute
     .light {
-      position: absolute !important;
-      z-index: 0 !important;
-      top:0;
-      right: 42%;
-      transform: translateX(-50%);
-  }
-
+      position        : absolute !important;
+      z-index         : 0 !important;
+      top             : 0;
+      right           : 42%;
+      transform       : translateX(-50%);
+  };
 
   .title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  // some problem for 2nd one -idk
-  // .title1 {
-  //   display: flex;
-  //   flex-direction: row;
-  //   align-items: center;
-  // }
-
-
-
-
-
-
-
-  }
-
-
-
-}
+    display           : flex;
+    flex-direction    : row;
+    align-items       : center;
+  };
+};
+};

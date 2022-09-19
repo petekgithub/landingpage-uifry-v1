@@ -1,6 +1,6 @@
 @mixin display($flex) {
   display     : $flex;
-}
+};
 
 .nav {
   @include display(flex);
@@ -15,9 +15,7 @@
     @include display(flex);
     align-items        : center;
     gap                : 24px;
-   margin-inline-end   : 80px
-   // margin-bottom: 20px;
-    
-  }
-}
+    margin-inline-end   : 80px
+  };
+};
 
