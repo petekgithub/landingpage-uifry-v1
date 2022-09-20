@@ -1,0 +1,44 @@
+
+@mixin forContainer {
+  display             : flex;
+  flex-direction      : row-reverse;
+  align-items         : center;
+  margin-top          : -100px;
+}
+
+//MEDıA QUERY MANAGEMENT 
+//1em = 16px;
+//1rem = 10px;
+//10px / 16px = 62.5% ( font
+
+// @mixin respond($breakpoint) {
+//   @if $breakpoint == phone {
+//     @media only screen and (max-width: 37.5em) {@content}; //600px 
+//   }
+
+//   @if $breakpoint == tab-port {
+//     @media only screen and (max-width: 56.25em) {@content}; //900px 
+//   }
+
+//   @if $breakpoint == tab-land {
+//     @media only screen and (max-width: 75em) {@content}; //1200px
+//   }
+
+//   @if $breakpoint == big-desktop {
+//     @media only screen and (max-width: 112.5em) {@content}; //1800px
+//   }
+
+// }
+
+
+@mixin tablet {
+  @media screen and (max-width: 768px){
+      @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 280px){
+      @content;
+  }
+}

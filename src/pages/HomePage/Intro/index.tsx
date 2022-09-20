@@ -7,7 +7,6 @@ import Phone from "../../Core/assets/imgs/introphone.svg";
 
 
 const Intro = () => {
-
   return (
     <div>
       <section id="Intro" className={styles.container}>
@@ -21,7 +20,6 @@ const Intro = () => {
             <button className={styles.getStartedButton}>GetStarted</button>
             <div className={styles.watch}>
               <Image className={styles.video} src={Video} alt="IntroVideoWatch"/>
-              {/* <button className={styles.button} onClick={change}>Watch Video</button> */}
               <button className={styles.button}><a href="https://www.youtube.com/watch?v=OS8taasZl8k">Watch Video</a></button>
             </div>
           </div>

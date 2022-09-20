@@ -1,5 +1,6 @@
 @import "../../pages/Core/styles/index.scss";
 
+
 .container {
   white-space: nowrap;
 
@@ -12,5 +13,11 @@
     &:hover {
       color: $color-red;
     }
+  }
+  @include tablet {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 2rem;
   }
 }
