@@ -1,4 +1,7 @@
 import styles from "./styles.module.scss";
+import Image from 'next/image';
+import Testimoniaal from "../../Core/assets/imgs/testimonial.svg";
+import Heads from "../../Core/assets/imgs/testimonialheads.svg";
 
 
 const Testimonial = () =>  {
@@ -10,7 +13,7 @@ const Testimonial = () =>  {
       </div>
       <div className={styles.innerContainer}> 
         <div className={styles.left}>
-          <img src="/assets/testimonial.svg" alt="Testimonial"/>
+          <Image src={Testimoniaal} alt="Testimonial"/>
         </div>
         <div className={styles.right}>
           <div className={styles.innerContent}>
@@ -23,7 +26,7 @@ const Testimonial = () =>  {
               Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”
             </p>
             <div className={styles.heads}> 
-              <img src="/assets/testimonialheads.svg" alt="TestimonialJonas"/>
+              <Image src={Heads} alt="TestimonialHeads"/>
               <span>Nick Jonas</span>
             </div>
           </div>

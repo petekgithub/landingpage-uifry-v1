@@ -1,12 +1,15 @@
-import { useState } from 'react';
 import styles from "./styles.module.scss";
+import Image from 'next/image';
+import Light from "../../Core/assets/imgs/introlight.svg";
+import Video from "../../Core/assets/icons/introvideoicon.svg";
+import Logo from "../../Core/assets/imgs/intrologo.svg";
+import Phone from "../../Core/assets/imgs/introphone.svg";
 
 
 const Intro = () => {
    const change = () => {
      window.open("https://www.youtube.com");
 };
-
 
   return (
     <div>
@@ -15,21 +18,21 @@ const Intro = () => {
           <div className={styles.info}>
             <h1 className={styles.title}>Make The Best Financial Decisions</h1>
             <p>Cum Et Convallis Risus Placerat Aliquam, Nuno, Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
-            <img className={styles.light} src="/assets/introlight.svg" alt="IntroLight"/>   
+            <Image className={styles.light} src={Light} alt="IntroLight"/>   
           </div>
           <div className={styles.media}> 
             <button className={styles.getStartedButton}>GetStarted</button>
             <div className={styles.watch}>
-              <img className={styles.video} src="/assets/introvideoicon.svg" alt="IntroVideoWatch"/>
+              <Image className={styles.video} src={Video} alt="IntroVideoWatch"/>
               <button className={styles.button} onClick={change}>Watch Video</button>
             </div>
           </div>
           <div>
-            <img className={styles.logo} src="/assets/intrologo.svg" alt="IntroLogo"/> 
+            <Image className={styles.logo} src={Logo} alt="IntroLogo"/> 
           </div>
         </div>
         <div className={styles.right}>
-          <img className={styles.phone} src="/assets/introphone.png"alt="IntroPhone"/> 
+          <Image className={styles.phone} src={Phone} alt="IntroPhone"/> 
         </div> 
       </section>
     </div>

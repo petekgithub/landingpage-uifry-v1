@@ -1,4 +1,9 @@
 import styles from "./styles.module.scss";
+import Image from 'next/image';
+import Logo from "../../Core/assets/imgs/headerlogo.svg";
+import Mail from "../../Core/assets/imgs/mail.svg";
+import Phone from "../../Core/assets/imgs/phone.svg";
+
 
 
 const Footer = () =>  {
@@ -6,13 +11,13 @@ const Footer = () =>  {
     <section id="Footer" className={styles.container}>
       <footer className={styles.innerContainer}>
         <div className={styles.contact}>
-          <img src="/assets/headerlogo.svg" />
+          <Image src={Logo} alt="FooterLogo" />
           <div className={styles.mail}>
-            <img src="/assets/mail.svg" />
+            <Image src={Mail} alt="MailLogo" />
             <span>Help@Frybix.com</span>
           </div>
           <div className={styles.phone}>
-            <img src="/assets/phone.svg" />
+            <Image src={Phone} alt="PhoneLogo" />
             <span>+1234 456 678 89</span>
           </div>
         </div> 
