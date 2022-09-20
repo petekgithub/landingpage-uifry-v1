@@ -3,9 +3,9 @@ import menuItems from "../../constants/menuItems";
 
 const NavMenu = () => {
   const handleClick = (event:string) => {
-    const target= document.getElementById(event);
+    const data = document.getElementById(event);
     window.scrollTo({
-      top:target?.offsetTop, 
+      top:data?.offsetTop, 
       behavior:"smooth"
     });
   };
@@ -14,7 +14,7 @@ const NavMenu = () => {
       <nav className={styles.container}>
          {menuItems.map((x) => (
           <span
-            id={x.value}
+            id={x.id}
             key={x.value}
             onClick={() => handleClick(x.value)}>
               {x.value}
