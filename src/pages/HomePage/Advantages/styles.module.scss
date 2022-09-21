@@ -1,9 +1,26 @@
+@import "../../Core/styles/mixins.scss";
+
 .container {
   display             : flex;
   // swap the left and right 
   flex-direction      : row-reverse;
   align-items         : center;
-  //margin-top          : -100px;
+
+  @include for-phone-only {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-portrait-up {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-landscape-up {    
+    font-size: 1rem; 
+  }
+  @include for-desktop-up {    
+    font-size: 1rem; 
+  }
+  @include for-big-desktop-up {    
+    font-size: 1rem; 
+  }
 
   .left {
     width              : 50%;

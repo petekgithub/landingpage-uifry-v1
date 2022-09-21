@@ -1,3 +1,5 @@
+@import "../../Core/styles/mixins.scss";
+
 .container {
   display                : flex;
   align-items            : center;
@@ -7,8 +9,24 @@
   justify-items          : center;
   // gap for title and img seperate them to each other
   gap                    : 70px;
+
+  @include for-phone-only {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-portrait-up {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-landscape-up {    
+    font-size: 1rem; 
+  }
+  @include for-desktop-up {    
+    font-size: 1rem; 
+  }
+  @include for-big-desktop-up {    
+    font-size: 1rem; 
+  }
   
-  .container > left {
+  .left {
     width                : 50%;
     position             : relative;
     display              : flex;

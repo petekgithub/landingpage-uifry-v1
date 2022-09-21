@@ -1,8 +1,26 @@
 @import "../../pages/Core/styles/index.scss";
+//@import "../../Core/styles/mixins.scss";
+//@import "../../pages/Core/styles/mixins.scss";
 
 
 .container {
   white-space: nowrap;
+
+  @include for-phone-only {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-portrait-up {    
+    font-size: 1rem; 
+  }
+  @include for-tablet-landscape-up {    
+    font-size: 1rem; 
+  }
+  @include for-desktop-up {    
+    font-size: 1rem; 
+  }
+  @include for-big-desktop-up {    
+    font-size: 1rem; 
+  }
 
   span {
     font-weight: normal;
@@ -14,10 +32,5 @@
       color: $color-red;
     }
   }
-  @include tablet {
-    position: absolute;
-    top: 22px;
-    right: 20px;
-    font-size: 2rem;
-  }
+
 }
