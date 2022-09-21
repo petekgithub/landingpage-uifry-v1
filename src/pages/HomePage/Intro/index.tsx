@@ -4,6 +4,7 @@ import Light from "../../Core/assets/imgs/introlight.svg";
 import Video from "../../Core/assets/icons/introvideoicon.svg";
 import Logo from "../../Core/assets/imgs/intrologo.svg";
 import Phone from "../../Core/assets/imgs/introphone.svg";
+import Link from "next/link";
 
 
 const Intro = () => {
@@ -20,7 +21,11 @@ const Intro = () => {
             <button className={styles.getStartedButton}>GetStarted</button>
             <div className={styles.watch}>
               <Image className={styles.video} src={Video} alt="IntroVideoWatch"/>
-              <button className={styles.button}><a href="https://www.youtube.com/watch?v=OS8taasZl8k">Watch Video</a></button>
+              <button className={styles.button}>
+                <Link href="https://www.youtube.com/watch?v=OS8taasZl8k&list=RDOS8taasZl8k&start_radio=1">
+                  <a target="_blank">Watch Video</a>
+                </Link>
+              </button>
             </div>
           </div>
           <div>
