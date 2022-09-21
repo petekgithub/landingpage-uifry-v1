@@ -1,11 +1,13 @@
 .container {
   display             : flex;
 
-  .left {
+  .right {
+    display           : flex;
+    flex-direction    : column;
     width             : 50%;
     position          : relative;
 
-  };
+
   span {
     color             : #e55000;
   };
@@ -27,19 +29,15 @@
     display           : flex;
     justify-content   : center;
     align-items       : center;
+    width             : 50%;
+    position          : relative;
+
     .phone {
       z-index         : 1 !important;
-    };
+    position          : absolute;
 
-// That's because one of the class attributes seems to be overwritten from other class from your file
-// The important: it's just a way to prevent from other classes to overwrite your attribute
-    .light {
-      position        : absolute !important;
-      z-index         : 0 !important;
-      top             : 0;
-      right           : 42%;
-      transform       : translateX(-50%);
-  };
+     
+    };
 
   .title{
     display           : flex;
@@ -48,3 +46,5 @@
   };
 };
 };
+
+}

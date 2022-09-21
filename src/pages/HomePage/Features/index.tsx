@@ -9,9 +9,11 @@ import Square from "../../Core/assets/icons/squareicon.svg";
 const Features = () =>  {
   return (
     <section id="Features" className={styles.container}>
+
       <div className={styles.left}>
         <Image className={styles.phone} src={Phone} alt="FeaturesPhone"/>
       </div>
+
       <div className={styles.right}>
         <div className={styles.info}>
           <span>FEATURES</span>
@@ -44,6 +46,7 @@ const Features = () =>  {
           </p>
         </div>
       </div>
+      
     </section>
   );
 };

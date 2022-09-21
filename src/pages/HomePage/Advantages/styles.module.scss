@@ -3,47 +3,41 @@
   // swap the left and right 
   flex-direction      : row-reverse;
   align-items         : center;
-  margin-top          : -100px;
-  
-  .container > left {
+  //margin-top          : -100px;
+
+  .left {
     width              : 50%;
-    position           : relative;
     display            : flex;
-    justify-content    : center;
-    align-items        : center;
+    flex-direction     : column;
   };
   span {
     color                : red;
     font-size            : 25px;
     opacity              : 0.6;
   };
-  h1 {
-    font-size: 1.7rem;
-    font-weight: bolder;
-  };
-  h4 {
-    font-size            : 1.7rem;
-  };
-  .title{
-    display             : flex;
-    flex-direction      : row;
-    align-items         : center;
-  };
-  .titleinner {
-    position: relative;
-
-  }
-  .image{
-    margin-right        : 30px;
-    display             : inline-block;
-  };
-  .right {
-    width               : 40%;
-    margin-top          : 30px;
-    position: relative;
-  };
   p {
-    font-size           : 20px;
-    opacity             : 0.5;
+    font-size     : 20px;
+    opacity       : 0.5;
+  }
+  h1 {
+    font-size            : 1.7rem;
+    font-weight          : bolder;
+    line-height          : 1
   };
-};
+  .inner {
+    display              : flex;
+    flex-direction       : row;
+    margin-left: 5px;
+  }
+  .ring {
+    margin-right: 10px;
+  }
+}
+  .right {
+    width               : 50%;
+    margin-top          : 30px;
+    text-align          : center;
+      .phone {
+        width           : 90%
+      }
+  };
