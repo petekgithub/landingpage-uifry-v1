@@ -3,12 +3,12 @@
 
 .container {
   display               : flex;
- // flex-direction: column;
 
   .left {
     margin-left       : 5px;
     width             : 100%;
     height            : 200%;
+   
   };
   .info {
     position      : relative;
@@ -18,9 +18,9 @@
     margin-top    : 2rem;
     font-weight   : bold;
   }
-  p {
-    font-size     : 20px;
-    opacity       : 0.5;
+  .p {
+    font-size            : 25px;
+    opacity              : 1.6;
   }
   .light {
     left          : 30%;
@@ -28,18 +28,6 @@
     position      : absolute;
     top           : 0px
   }
-
-
-// // That's because one of the class attributes seems to be overwritten from other class from your file
-// // The important: it's just a way to prevent from other classes to overwrite your attribute
-//     .light {
-//       position        : absolute !important;
-//       z-index         : 0 !important;
-//       top             : 0;
-//       right           : 42%;
-//       transform       : translateX(-50%);
-//   };
-
 
   .media {
     display       : flex;
@@ -78,21 +66,10 @@
 };
 
 .right {
-  // width: 100%;
-  // height: 100%;
-  // text-align: center;
   display           : flex;
   flex-direction: column;
   margin-right: -80px;
-  //justify-content   : center;
-  //align-items       : center;
   height             : 400%;
- // position          : relative;
-
-  // .phone {
-  //   width: 100%
-  // }
-
 
 }
 

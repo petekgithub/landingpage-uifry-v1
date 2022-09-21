@@ -6,15 +6,24 @@
     flex-direction    : column;
     width             : 50%;
     position          : relative;
-
+    font-size            : 15px;
 
   span {
     color             : #e55000;
   };
+  
   p {
     font-size         : 20px;
     opacity           : .5;
   };
+
+  .inner {
+    display              : flex;
+    flex-direction       : row;
+    gap                  : 10px;
+    align-items          :center;
+  }
+
   .image{
     margin-right      : 10px;
     display           : inline-block;
@@ -31,12 +40,12 @@
     align-items       : center;
     width             : 50%;
     position          : relative;
+    
 
     .phone {
-      z-index         : 1 !important;
+    z-index           : 1 !important;
     position          : absolute;
-
-     
+   
     };
 
   .title{

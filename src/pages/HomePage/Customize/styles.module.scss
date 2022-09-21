@@ -1,7 +1,7 @@
 @mixin container-base(){  
   display            : flex;
   align-items        : center;
-  margin-top         : 50px;
+  margin-top         : 0px;
 
   h4 {
     font-size        : 1.4rem;
@@ -11,6 +11,12 @@
     flex-direction   : row;
     align-items      : center;
   };
+  .inner {
+    display              : flex;
+    flex-direction       : row;
+    gap                  : 10px;
+    align-items          :center;
+  }
   p {
     font-size        : 20px;
     opacity          : 0.5;

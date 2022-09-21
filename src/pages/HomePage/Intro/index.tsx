@@ -13,7 +13,7 @@ const Intro = () => {
         <div className={styles.left}> 
           <div className={styles.info}>
             <h1 className={styles.title}>Make The Best Financial Decisions</h1>
-            <p>Cum Et Convallis Risus Placerat Aliquam, Nuno, Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
+            <p className={styles.p}>Cum Et Convallis Risus Placerat Aliquam, Nuno, Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
             <Image className={styles.light} src={Light} alt="IntroLight"/>   
           </div>
           <div className={styles.media}> 
