@@ -1,7 +1,8 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Phone from "../../Core/assets/imgs/customizephone.svg";
-import Star from "../../Core/assets/icons/customizestaricon.svg";
+import Star from "../../../Common/assets/icons/customizestaricon.svg";
+import Phone from "../../../Common/assets/imgs/customizephone.svg";
+
 
 const Customize = () =>  {
   return (

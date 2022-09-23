@@ -1,6 +1,8 @@
 //@include respond($phone, $tab-port, $tab-land, $big-desktop) {}
-@import "../../Core/styles/index.scss";
+//@import "../../Core/styles/index.scss";
 //@import "../../Core/styles/mixins.scss";
+@import "../../../Common/styles/mixins.scss";
+
 
 
 .container {
@@ -29,6 +31,7 @@
   };
   .info {
     position      : relative;
+    
   }
   h1 {
     font-size     : 3.0rem;
@@ -40,21 +43,19 @@
     opacity              : 1.6;
   }
   .light {
-    left          : 30%;
+    
     opacity       : 0.8;
-    position      : absolute;
-    top           : 0px
+ 
   }
 
   .media {
     display       : flex;
     flex-direction: row;  
-    margin-top    : -25rem;
   }
   .getStartedButton {
-    background-color     : $color-black;
+    background-color     : black;
     padding              : 15px 10px;
-    color                : $color-white;
+    color                : white;
     border-radius        : 5px;
     flex-direction       : row;
     cursor               : pointer;

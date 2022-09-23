@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 import NavBar from "../../../components/NavBar";
 import DownloadButton from "components/Button/DownloadButton";
 import Image from 'next/image';
-import Logo from "../../Core/assets/imgs/headerlogo.svg";
+import Logo from "../../../Common/assets/imgs/headerlogo.svg";
 
 
 const Header = () => {

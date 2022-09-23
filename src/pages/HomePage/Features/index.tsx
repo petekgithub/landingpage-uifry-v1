@@ -1,9 +1,10 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Phone from "../../Core/assets/imgs/featuresphone.svg";
-import Star from "../../Core/assets/icons/staricon.svg";
-import Circle from "../../Core/assets/icons/circleicon.svg";
-import Square from "../../Core/assets/icons/squareicon.svg";
+import Star from "../../../Common/assets/icons/staricon.svg";
+import Circle from "../../../Common/assets/icons/circleicon.svg";
+import Phone from "../../../Common/assets/imgs/featuresphone.svg";
+import Square from "../../../Common/assets/icons/squareicon.svg";
+
 
 
 const Features = () =>  {

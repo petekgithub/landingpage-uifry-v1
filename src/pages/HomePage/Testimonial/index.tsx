@@ -1,7 +1,7 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Testimoniaal from "../../Core/assets/imgs/testimonial.svg";
-import Heads from "../../Core/assets/imgs/testimonialheads.svg";
+import Testimoniaal from "../../../Common/assets/imgs/testimonial.svg";
+import Heads from "../../../Common/assets/imgs/testimonialheads.svg";
 
 
 const Testimonial = () =>  {

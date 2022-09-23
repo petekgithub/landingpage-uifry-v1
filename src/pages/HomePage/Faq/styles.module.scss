@@ -1,5 +1,7 @@
 // all the 6 divs inside one div, just use the nth-child(odd) or nth-child(even)
-@import "../../Core/styles/mixins.scss";
+//@import "../../Core/styles/mixins.scss";
+@import "../../../Common/styles/mixins.scss";
+
 
 .content {
   display                :flex;

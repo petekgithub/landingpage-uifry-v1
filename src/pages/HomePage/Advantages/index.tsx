@@ -1,7 +1,7 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Ring from "../../Core/assets/icons/ringicon.svg";
-import Phone from "../../Core/assets/imgs/advantagesphone.svg";
+import Ring from "../../../Common/assets/icons/ringicon.svg";
+import Phone from "../../../Common/assets/imgs/advantagesphone.svg";
 
 
 const Advantages = () =>  {

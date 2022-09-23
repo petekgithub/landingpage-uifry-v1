@@ -1,9 +1,11 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Light from "../../Core/assets/imgs/introlight.svg";
-import Video from "../../Core/assets/icons/introvideoicon.svg";
-import Logo from "../../Core/assets/imgs/intrologo.svg";
-import Phone from "../../Core/assets/imgs/introphone.svg";
+import Light from "../../../Common/assets/imgs/introlight.svg";
+import Video from "../../../Common/assets/icons/introvideoicon.svg";
+import Logo from "../../../Common/assets/imgs/intrologo.svg";
+import Phone from "../../../Common/assets/imgs/introphone.svg";
+
+
 import Link from "next/link";
 
 
@@ -15,7 +17,7 @@ const Intro = () => {
           <div className={styles.info}>
             <h1 className={styles.title}>Make The Best Financial Decisions</h1>
             <p className={styles.p}>Cum Et Convallis Risus Placerat Aliquam, Nuno, Scelerisque Aliquet Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.</p>
-            <Image className={styles.light} src={Light} alt="IntroLight"/>   
+            <Image className={styles.light} src={Light} alt="IntroLight" layout="fill" objectPosition="top"/>   
           </div>
           <div className={styles.media}> 
             <button className={styles.getStartedButton}>GetStarted</button>
@@ -29,11 +31,11 @@ const Intro = () => {
             </div>
           </div>
           <div>
-            <Image className={styles.logo} src={Logo} alt="IntroLogo"/> 
+            <Image className={styles.logo} src={Logo} alt="IntroLogo" width="613" height="427"/> 
           </div>
         </div>
         <div className={styles.right}>
-          <Image className={styles.phone} src={Phone} alt="IntroPhone"/> 
+          <Image className={styles.phone} src={Phone} alt="IntroPhone" width="712" height="832" /> 
         </div> 
       </section>
     </div>
