@@ -1,189 +1,73 @@
-html,
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
 body,
-div,
-span,
-applet,
-object,
-iframe,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
 figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-button {
-  margin        : 0;
-  padding       : 0;
-  border        : 0;
-  font-size     : 100%;
-  font-family   : inherit;
-  vertical-align: baseline;
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
   display: block;
 }
 
-body {
-  user-select          : none;
-  overflow-x           : hidden;
-  line-height          : normal;
-  font-feature-settings: "tnum";
-  color                : $color-dark;
-  font-family          : $font-family;
-  font-variant         : tabular-nums;
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
-  * {
-    box-sizing: border-box;
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
   }
-
+  *,
   *::before,
   *::after {
-    box-sizing: border-box;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
-
-  #__next {
-    position: relative;
-  }
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-spacing : 0;
-  border-collapse: collapse;
-}
-
-input,
-textarea {
-  caret-color: inherit;
-  font-family: $font-family;
-}
-
-input[type=file] {
-  display: none;
-}
-
-button {
-  outline         : none;
-  cursor          : pointer;
-  background-color: transparent;
-}
-
-a {
-  text-decoration: none;
-  color          : inherit;
-
-  &:active {
-    color: inherit;
-  }
-}
-
-html {
-  -webkit-text-size-adjust   : 100%;
-  -ms-text-size-adjust       : 100%;
-  -ms-overflow-style         : scrollbar;
-  -webkit-tap-highlight-color: rgba($color-black, 0);
-}
-
-img {
-  vertical-align: middle;
-  border-style  : none;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px $color-white inset !important;
 }
