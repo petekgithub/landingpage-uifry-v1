@@ -3,9 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   sassOptions: {
-    prependData: `@import "styles/index.scss:`
+    prependData: `@import '':`
   }
 }
-
 
 module.exports = nextConfig

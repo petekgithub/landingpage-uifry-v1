@@ -3,9 +3,9 @@
 
 
 .container {
-  display          : flex;
-  height           : 100px;
-  justify-content  : space-between;
+  
+  @include flex(center);
+  @include forContainer();
 
 
   @media screen and (max-width: 400px) {

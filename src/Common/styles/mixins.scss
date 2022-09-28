@@ -1,10 +1,10 @@
 
-@mixin forContainer {
-  display             : flex;
-  flex-direction      : row-reverse;
-  align-items         : center;
-  margin-top          : -100px;
-}
+// @mixin forContainer {
+//   display             : flex;
+//   flex-direction      : row-reverse;
+//   align-items         : center;
+//   margin-top          : -100px;
+// }
 
 //MEDıA QUERY MANAGEMENT 
 //1em = 16px;
@@ -12,18 +12,32 @@
 //10px / 16px = 62.5% ( font)
 
 //--------------------
-@mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
+// @mixin for-phone-only {
+//   @media (max-width: 599px) { @content; }
+// }
+// @mixin for-tablet-portrait-up {
+//   @media (min-width: 600px) { @content; }
+// }
+// @mixin for-tablet-landscape-up {
+//   @media (min-width: 900px) { @content; }
+// }
+// @mixin for-desktop-up {
+//   @media (min-width: 1200px) { @content; }
+// }
+// @mixin for-big-desktop-up {
+//   @media (min-width: 1800px) { @content; }
+// }
+
+@mixin flex($alignItems: null, $justifyContent: null, $flexDirection: null) {
+  display  : flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  flex-direction:  $flexDirection;
 }
-@mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
-}
-@mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
-}
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-}
-@mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
+
+@mixin forContainer($width: $default-content-width) {
+  width       : $width;
+  margin      : auto;
+  max-width   : calc(100% - $mobile-padding);
+
 }
