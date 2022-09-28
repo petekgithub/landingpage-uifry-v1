@@ -6,30 +6,19 @@
 .container {
   white-space: nowrap;
 
-  @include for-phone-only {    
-    font-size: 1rem; 
-  }
-  @include for-tablet-portrait-up {    
-    font-size: 1rem; 
-  }
-  @include for-tablet-landscape-up {    
-    font-size: 1rem; 
-  }
-  @include for-desktop-up {    
-    font-size: 1rem; 
-  }
-  @include for-big-desktop-up {    
-    font-size: 1rem; 
+  @media screen and (max-width: 400px) {
+        padding   : 10px 0;
+        
   }
 
   span {
-    font-weight: normal;
-    cursor     : pointer;
-    transition : all .2s;
-    display: inline-block;
-    padding: 0px 20px ;
+    font-weight   : normal;
+    cursor        : pointer;
+    transition    : all .2s;
+    display       : inline-block;
+    padding       : 0px 20px ;
     &:hover {
-      color: $color-red;
+      color       : $color-red;
     }
   }
 

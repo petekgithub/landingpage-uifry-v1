@@ -10,7 +10,7 @@ const MetaHeader: React.FC<Props> = ({ title="UiFry", description="Make the best
   return (
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="../../../public/favicon.png" />
       <meta name="description" content={description} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />

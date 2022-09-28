@@ -9,7 +9,11 @@ const Header = () => {
   return (
     <header className={styles.container}>
       <div className= {styles.logo}>
-        <Image src={Logo} alt="HeaderLogo"/>
+      <Image 
+          src={Logo}
+          width={117}
+          height={35}
+        />
       </div>
       <div className= {styles.nav}>
         <NavBar />

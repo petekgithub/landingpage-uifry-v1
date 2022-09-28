@@ -8,20 +8,8 @@
   justify-content  : space-between;
 
 
-  @include for-phone-only {    
-    font-size: 1rem; 
-  }
-  @include for-tablet-portrait-up {    
-    font-size: 1rem; 
-  }
-  @include for-tablet-landscape-up {    
-    font-size: 1rem; 
-  }
-  @include for-desktop-up {    
-    font-size: 1rem; 
-  }
-  @include for-big-desktop-up {    
-    font-size: 1rem; 
+  @media screen and (max-width: 400px) {
+    display     : none;
   }
 
   .logo {
