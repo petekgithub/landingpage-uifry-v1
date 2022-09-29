@@ -41,3 +41,9 @@
   max-width   : calc(100% - $mobile-padding);
 
 }
+
+@mixin responsiveMobile {
+  @media screen and (max-width: 480px){
+    @content;
+  }
+}
