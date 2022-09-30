@@ -13,11 +13,15 @@ const Footer = () =>  {
           <Image src={Logo} alt="FooterLogo" />
           <div className={styles.mail}>
             <Image src={Mail} alt="MailLogo" />
-            <span>Help@Frybix.com</span>
+            <a href="mailto:help@frybix.com">
+              Help@Frybix.com
+            </a>
           </div>
           <div className={styles.phone}>
             <Image src={Phone} alt="PhoneLogo" />
-            <span>+1234 456 678 89</span>
+            <a href="+1 234 456 678 89">
+              +1234 456 678 89
+            </a>
           </div>
         </div> 
         <div className={styles.links}>
