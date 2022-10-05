@@ -9,12 +9,12 @@
 @mixin flex($alignItems: null, $justifyContent:null, $flexDirection:null) {
   display        : flex;
   alignItems     :$alignItems;
-  justifyContent : $justifyContent;
-  flexDirection  : $flexDirection;
+  justifyContent :$justifyContent;
+  flexDirection  :$flexDirection;
 }
 
 @mixin content($width: $default-content-width) {
-  width     : $width;
-  margin    : auto;
-  max-with  : calc(100% - $mobile-padding);
+  width     :$width;
+  margin    :auto;
+  max-with  :calc(100% - $mobile-padding);
 }

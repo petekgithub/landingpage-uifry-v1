@@ -32,9 +32,9 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  min-height    : 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height   : 1.5;
 }
 
 /* A elements that don't have a class get default styles */
@@ -46,7 +46,7 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  display: block;
+  display  : block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -65,9 +65,9 @@ select {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
+    animation-duration       : 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    transition-duration      : 0.01ms !important;
+    scroll-behavior          : auto !important;
   }
 }

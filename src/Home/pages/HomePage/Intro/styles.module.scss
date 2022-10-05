@@ -1,7 +1,4 @@
-//@include respond($phone, $tab-port, $tab-land, $big-desktop) {}
-//@import "../../Core/styles/index.scss";
-//@import "../../Core/styles/mixins.scss";
-//@import "../../../Common/styles/mixins.scss";
+
 @import "Common/styles/index.scss";
 
 
@@ -38,7 +35,6 @@
   }
   .getStartedButton {
     background-color     : black;
-    padding              : 15px 10px;
     color                : white;
     border-radius        : 5px;
     flex-direction       : row;

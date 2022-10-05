@@ -1,15 +1,11 @@
-//@import "../../Core/styles/mixins.scss";
-//@import "../../../Common/styles/mixins.scss";
+
 @import "Common/styles/index.scss";
-
-
 
 .container {
   display                 : flex;
   flex-direction          : column;
   margin-top              : 100px;
   align-items             : center;
-
 
   .phone, .mail {
     flex-direction        : column;

@@ -5,7 +5,7 @@ import Mail from "../../../Common/assets/imgs/mail.svg";
 import Phone from "../../../Common/assets/imgs/phone.svg";
 
 
-const Footer = () =>  {
+const Footer: React.FC = () =>  {
   return (
     <section id="Footer" className={styles.container}>
       <footer className={styles.innerContainer}>
