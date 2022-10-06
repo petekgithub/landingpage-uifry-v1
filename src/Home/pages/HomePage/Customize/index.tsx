@@ -22,7 +22,7 @@ const Customize = () =>  {
             Gravida Eu, Lectus Eget Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam.
           </p>
       </div>
-
+      
     </section>
   );
 };

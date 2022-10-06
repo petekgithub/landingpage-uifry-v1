@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss";
 import Image from 'next/image';
-import Logo from "../../../Common/assets/imgs/headerlogo.svg";
-import Mail from "../../../Common/assets/imgs/mail.svg";
-import Phone from "../../../Common/assets/imgs/phone.svg";
+import Logo from "Common/assets/imgs/headerlogo.svg";
+import Mail from "Common/assets/imgs/mail.svg";
+import Phone from "Common/assets/imgs/phone.svg";
 
 
 const Footer: React.FC = () =>  {
