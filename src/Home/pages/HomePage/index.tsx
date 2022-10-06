@@ -12,13 +12,13 @@ const HomePage: React.FC = () => {
   return (
     <div className={styles.container}>
       <Header/>
-      {/* <Intro />
+       {/* <Intro />
       <Features />
       <Advantages />
       <Customize />
       <Testimonial />
-      <Faq />  
-      <Footer /> */}
+      <Faq />   */}
+      <Footer />
     </div>
   )
 };
